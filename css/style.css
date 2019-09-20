@@ -1,9 +1,25 @@
 header {
   width: 100%;
   display: inline-block;
+
+}
+
+header div {
+  float: left;
+  padding: 10px;
+}
+
+#logo {
+  padding: 10px;
+  float: left;
+}
+
+hr {
+  border-top: 5px dotted grey;
 }
 
 header ul {
+  padding: 30px;
   float: right;
   display: inline-block;
 }
@@ -24,3 +40,36 @@ header p {
   font-family: Arial, sans-serif;
 }
 
+main section h1 {
+  font-weight: bold;
+  font-family: Arial Narrow, sans-serif	;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+main section h3 {
+  font-size: 14px;
+  font-family: Arial Narrow, sans-serif	;
+  color: grey;
+}
+
+#print {
+  display: inline-block;
+  float: right;
+  margin-bottom: 12px;
+}
+
+#print h4 {
+  font-size: 14px;
+  font-family: Arial Narrow, sans-serif	;
+  float: right;
+  color:grey;
+}
+
+#choco {
+  display: block;
+  margin-top: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
