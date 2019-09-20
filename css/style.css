@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+  display: inline-block;
+}
+
+header ul {
+  float: right;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+}
+
+header h1 {
+  font-size: 46px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+header p {
+  clear: both;
+  color: grey;
+  font-size: 8px;
+  font-family: Arial, sans-serif;
+}
+
